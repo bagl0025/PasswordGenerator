@@ -1,31 +1,20 @@
 # Password Generator
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+## User Input
+When run you must select a password length between 8 and 128 characters.
+Then you select the character types to include from the floowing catagories
+- Numbers
+- Uppercase letters
+- Lowercase letters
+- special characters
 
-Acceptance Criteria
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+[List of Password Special Characters from the OWASP Foundation](https://owasp.org/www-community/password-special-characters)
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+[Password Generator](https://bagl0025.github.io/PasswordGenerator/)
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
+[Github Repository](https://github.com/bagl0025/PasswordGenerator.git)
 
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-
-The same list as string (between double quotes): " !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-
-
+## Author
+Brian Bagley
+March 2022
